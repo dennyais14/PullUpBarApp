@@ -1,0 +1,25 @@
+Coach Tascabile Calisthenics - v1.6 A4 completion report
+
+A4 batch completed and integrated into the PWA.
+
+New original/generated exercise cards integrated:
+- low-press-up.webp
+- decline-press-up.webp
+- straight-bar-press-ups.webp
+- squat.webp
+- bulgarian-split-squat.webp
+- single-leg-box-squat.webp
+- burpee.webp
+- mountain-climber.webp
+- plank.webp
+- sit-up.webp
+
+Code updates:
+- app.js updated to use A4 WebP assets
+- manifest.json updated to version 1.6-a4
+- service-worker.js cache bumped to ct-calisthenics-v1.6-a4-complete
+
+Notes:
+- A4 now corresponds to v1.6 as requested.
+- Previous A1/A2/A3 replacements are preserved.
+- App remains installable as a PWA.

@@ -1,0 +1,40 @@
+Coach Tascabile Calisthenics · v2.2 build report
+
+Base package: coach_tascabile_calisthenics_pwa_v2_0.zip
+Output package: coach_tascabile_calisthenics_pwa_v2_2.zip
+
+Integrated picture batches:
+- v2.1 Suspended / advanced core: 10 individual WebP cards
+- v2.2 Glute / accessory / rifiniture finali: 10 individual WebP cards
+
+v2.1 images integrated:
+- suspended-leg-raise.webp
+- suspended-knee-raise.webp
+- suspended-windshield-wipers-360.webp
+- hanging-windshield-wipers-180.webp
+- l-sit-hold.webp
+- l-sit-scissors.webp
+- suspended-alternating-straight-leg-oblique-crunch.webp
+- hanging-alternating-straight-leg-oblique-crunch.webp
+- hanging-bent-knee-toes-to-bar.webp
+- press-up-planche-to-l-sit.webp
+
+v2.2 images integrated:
+- shoulders-elevated-hip-raise.webp
+- single-leg-shoulders-elevated-hip-raise.webp
+- glute-bridge.webp
+- single-leg-glute-bridge.webp
+- donkey-kick.webp
+- side-lying-clam.webp
+- fire-hydrant.webp
+- frog-pump.webp
+- copenhagen-side-plank.webp
+- calf-raise.webp
+
+Technical updates:
+- app.js image override map rebuilt and syntax repaired
+- missing v2.2 accessory exercises added to exercise library
+- manifest.json updated to version 2.2
+- service-worker.js cache name updated to ct-calisthenics-v2.2
+- service worker asset list rebuilt from actual package files
+- PWA installable structure preserved
