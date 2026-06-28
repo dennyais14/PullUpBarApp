@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Coach Calisthenics" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="theme-color" content="#18a058" />
+  <title>Coach Tascabile Calisthenics</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="assets/images/icon-192.webp" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">PWA privata · calisthenics · v2.4.3 · smartphone</p>
+        <h1>Coach Tascabile Calisthenics</h1>
+      </div>
+      <div class="top-actions">
+        <button id="pathwayToggle" class="pathway-toggle" aria-label="Cambia percorso">Fit & Lean</button>
+        <button id="settingsBtn" class="iconbtn" aria-label="Impostazioni">⚙️</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="onboarding" class="card hidden">
+        <h2>Configura il percorso</h2>
+        <p>Puoi partire da <strong>Fit and Lean</strong> e cambiare percorso in seguito dalle impostazioni.</p>
+        <div class="choice-grid">
+          <button data-pathway="fit" class="pathwayChoice selected">
+            <span>Fit and Lean</span>
+            <small>Dimagrimento, ricomposizione, fitness.</small>
+          </button>
+          <button data-pathway="built" class="pathwayChoice">
+            <span>Strong and Built</span>
+            <small>Forza, trazioni, dips, massa.</small>
+          </button>
+        </div>
+        <button id="startApp" class="primary full">Inizia il programma</button>
+      </section>
+
+      <section id="dashboard" class="screen active"></section>
+      <section id="program" class="screen"></section>
+      <section id="guided" class="screen"></section>
+      <section id="library" class="screen"></section>
+      <section id="cardio" class="screen"></section>
+      <section id="checkin" class="screen"></section>
+      <section id="advice" class="screen"></section>
+      <section id="guide" class="screen"></section>
+      <section id="tests" class="screen"></section>
+      <section id="progress" class="screen"></section>
+      <section id="stretching" class="screen"></section>
+      <section id="history" class="screen"></section>
+      <section id="settings" class="screen"></section>
+    </main>
+
+    <nav class="bottomnav" aria-label="Navigazione principale">
+      <button data-tab="dashboard" class="navbtn active">🏠<span>Home</span></button>
+      <button data-tab="program" class="navbtn">📅<span>Piano</span></button>
+      <button data-tab="guided" class="navbtn">▶️<span>Guidato</span></button>
+      <button data-tab="library" class="navbtn">📚<span>Esercizi</span></button>
+      <button data-tab="cardio" class="navbtn">❤️<span>Cardio</span></button>
+      <button data-tab="checkin" class="navbtn">✅<span>Check-in</span></button>
+      <button data-tab="advice" class="navbtn">🧭<span>Consiglio</span></button>
+      <button data-tab="guide" class="navbtn">📖<span>Guida</span></button>
+      <button data-tab="tests" class="navbtn">🧪<span>Test</span></button>
+      <button data-tab="progress" class="navbtn">📈<span>Progressi</span></button>
+      <button data-tab="stretching" class="navbtn">🧘<span>Stretch</span></button>
+      <button data-tab="history" class="navbtn">🕘<span>Cronologia</span></button>
+      <button data-tab="settings" class="navbtn">⚙️<span>Impost.</span></button>
+    </nav>
+  </div>
+
+  <dialog id="settingsDialog">
+    <form method="dialog" class="dialog-card">
+      <h2>Impostazioni</h2>
+      <label>Percorso attuale
+        <select id="pathwaySelect">
+          <option value="fit">Fit and Lean</option>
+          <option value="built">Strong and Built</option>
+        </select>
+      </label>
+      <label>Settimana corrente
+        <input id="weekInput" type="number" min="1" max="24" />
+      </label>
+      <div class="row gap">
+        <button id="saveSettings" class="primary" value="default">Salva</button>
+        <button id="resetProgress" class="danger" value="default">Reset dati</button>
+      </div>
+      <button value="cancel" class="secondary full">Chiudi</button>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

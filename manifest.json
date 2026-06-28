@@ -1,0 +1,32 @@
+{
+  "name": "Coach Tascabile Calisthenics",
+  "short_name": "Coach Calisthenics",
+  "description": "PWA privata ottimizzata per iPhone/smartphone con menu adattivo, switch rapido Fit & Lean / Strong & Built e image-style fix legacy cards - v2.4.3.",
+  "id": "./index.html",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6fbf7",
+  "theme_color": "#18a058",
+  "icons": [
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "version": "2.4.3-smartphone-image-style-fix",
+  "orientation": "portrait",
+  "categories": [
+    "fitness",
+    "health",
+    "productivity"
+  ]
+}
