@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Mountain Climber">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7fff9"/><stop offset="1" stop-color="#e8f7ee"/></linearGradient>
+    <style>
+      .t{font:700 34px -apple-system,BlinkMacSystemFont,Segoe UI,Arial;fill:#142018}
+      .s{font:600 18px -apple-system,BlinkMacSystemFont,Segoe UI,Arial;fill:#587263}
+      .l{stroke:#17231b;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;fill:none}
+      .m{fill:#18a058;opacity:.72} .a{stroke:#18a058;stroke-width:12;stroke-linecap:round;fill:none;marker-end:url(#arr)}
+      .thin{stroke:#17231b;stroke-width:9;stroke-linecap:round;fill:none}
+    </style>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L7,3 z" fill="#18a058"/></marker>
+  </defs>
+  <rect width="900" height="620" rx="40" fill="url(#bg)"/>
+  <text x="44" y="62" class="t">Mountain Climber</text>
+  <text x="44" y="94" class="s">Tutorial originale · start → end · Full Body</text>
+  <rect x="44" y="118" width="812" height="340" rx="28" fill="#fff" stroke="#dfe9e2"/>
+  <circle cx="310" cy="223.0" r="13.600000000000001" fill="#f3c6a4" stroke="#17231b" stroke-width="5"/>
+    <path class="l" d="M310 241.39999999999998 L310 303.0 M270.0 259.0 L350.0 259.0 M310 303.0 L278.0 380.6 M310 303.0 L343.6 380.6"/>
+    <ellipse class="m" cx="310" cy="276.6" rx="34" ry="50"/><circle cx="644.0" cy="299.3" r="14.45" fill="#f3c6a4" stroke="#17231b" stroke-width="5"/>
+        <path class="l" d="M627.0 318.0 L542.0 343.5 L452.75 369.0 M542.0 343.5 L589.6 401.3 M616.8 322.25 L669.5 373.25 M669.5 373.25 L684.8 413.2"/>
+        <ellipse class="m" cx="577.7" cy="337.55" rx="48" ry="24" transform="rotate(-16 577.7 337.55)"/><path class="thin" d="M120 398 H780" stroke="#7e9184"/>
+  <path class="a" d="M394 286 C454 226 518 226 582 286"/>
+  <g transform="translate(52 485)">
+    <circle cx="18" cy="18" r="18" fill="#18a058"/><text x="13" y="25" font-size="20" font-weight="800" fill="#fff">1</text><text x="48" y="24" class="s">Imposta posizione stabile</text>
+    <circle cx="318" cy="18" r="18" fill="#18a058"/><text x="313" y="25" font-size="20" font-weight="800" fill="#fff">2</text><text x="348" y="24" class="s">Muovi con controllo</text>
+    <circle cx="610" cy="18" r="18" fill="#18a058"/><text x="605" y="25" font-size="20" font-weight="800" fill="#fff">3</text><text x="640" y="24" class="s">Evita slanci</text>
+  </g>
+  <rect x="52" y="540" width="796" height="42" rx="21" fill="#ffffff" stroke="#dfe9e2"/>
+  <text x="76" y="567" class="s">Consiglio: mantieni core attivo e respira durante il movimento.</text>
+</svg>

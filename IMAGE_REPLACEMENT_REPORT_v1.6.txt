@@ -1,0 +1,54 @@
+IMAGE REPLACEMENT REPORT — Coach Tascabile Calisthenics v1.6
+
+Input ZIP analizzati:
+- batch.zip
+- immagini esercizi base.zip
+
+Immagini esercizio integrate come WebP: 33
+Immagini overview salvate per riferimento: 4
+
+Mappature integrate:
+- bent-hips-inverted-row.webp  <=  batch/batch/batch a1/ChatGPT Image 28 giu 2026, 01_14_09.png
+- bent-hips-underhand-grip-inverted-row.webp  <=  batch/batch/batch a1/ChatGPT Image 28 giu 2026, 01_14_14.png
+- bent-hips-wide-grip-inverted-row.webp  <=  batch/batch/batch a1/ChatGPT Image 28 giu 2026, 01_14_25.png
+- dead-hang.webp  <=  batch/batch/batch a3/ChatGPT Image 28 giu 2026, 01_17_58.png
+- decline-shoulder-press.webp  <=  batch/batch/batch a2/ChatGPT Image 28 giu 2026, 01_16_43.png
+- downfacing-high-bent-hip-dips.webp  <=  batch/batch/batch a2/ChatGPT Image 28 giu 2026, 01_16_05.png
+- downfacing-high-dips.webp  <=  batch/batch/batch a2/ChatGPT Image 28 giu 2026, 01_16_00.png
+- forward-leaning-tricep-extension.webp  <=  batch/batch/batch a2/ChatGPT Image 28 giu 2026, 01_16_33.png
+- hanging-alternating-oblique-crunch.webp  <=  batch/batch/batch a3/ChatGPT Image 28 giu 2026, 01_17_36.png
+- hanging-alternating-straight-leg-oblique-crunch.webp  <=  batch/batch/batch a3/ChatGPT Image 28 giu 2026, 01_17_48.png
+- hanging-bent-knee-toes-to-bar.webp  <=  batch/batch/batch a3/ChatGPT Image 28 giu 2026, 01_17_44.png
+- hanging-knee-raise.webp  <=  batch/batch/batch a3/ChatGPT Image 28 giu 2026, 01_17_26.png
+- hanging-leg-raise.webp  <=  base/immagini esercizi base/ChatGPT Image 28 giu 2026, 01_07_15 (10).png
+- hanging-straight-leg-scissors.webp  <=  batch/batch/batch a3/ChatGPT Image 28 giu 2026, 01_17_40.png
+- hanging-straight-leg-toes-to-bar.webp  <=  batch/batch/batch a3/ChatGPT Image 28 giu 2026, 01_17_32.png
+- l-sit-hold.webp  <=  batch/batch/batch a3/ChatGPT Image 28 giu 2026, 01_18_02 (9).png
+- l-sit-scissors.webp  <=  batch/batch/batch a3/ChatGPT Image 28 giu 2026, 01_18_03 (10).png
+- neutral-grip-scapula-retraction.webp  <=  batch/batch/batch a1/ChatGPT Image 28 giu 2026, 01_14_35.png
+- partial-dips-bottom-half.webp  <=  batch/batch/batch a2/ChatGPT Image 28 giu 2026, 01_15_54.png
+- partial-dips-top-half.webp  <=  batch/batch/batch a2/ChatGPT Image 28 giu 2026, 01_15_41.png
+- partial-wide-grip-pull-up-bottom-half.webp  <=  batch/batch/batch a1/ChatGPT Image 28 giu 2026, 01_14_40.png
+- partial-wide-grip-pull-up-top-half.webp  <=  batch/batch/batch a1/ChatGPT Image 28 giu 2026, 01_14_45.png
+- pull-up.webp  <=  base/immagini esercizi base/ChatGPT Image 28 giu 2026, 01_07_23 (1).png
+- raised-feet-straight-leg-rear-dips.webp  <=  batch/batch/batch a2/ChatGPT Image 28 giu 2026, 01_16_39.png
+- straight-bar-close-grip-press-ups.webp  <=  batch/batch/batch a2/ChatGPT Image 28 giu 2026, 01_16_23.png
+- straight-bar-press-ups.webp  <=  batch/batch/batch a2/ChatGPT Image 28 giu 2026, 01_16_11.png
+- straight-bar-wide-grip-press-ups.webp  <=  batch/batch/batch a2/ChatGPT Image 28 giu 2026, 01_16_16.png
+- strict-inverted-row.webp  <=  batch/batch/batch a1/ChatGPT Image 28 giu 2026, 01_10_45 (1).png
+- strict-neutral-grip-inverted-row.webp  <=  batch/batch/batch a1/ChatGPT Image 28 giu 2026, 01_13_27.png
+- strict-underhand-close-grip-inverted-row.webp  <=  batch/batch/batch a1/ChatGPT Image 28 giu 2026, 01_14_31.png
+- strict-wide-grip-inverted-row.webp  <=  batch/batch/batch a1/ChatGPT Image 28 giu 2026, 01_14_03.png
+- wide-grip-dead-hang.webp  <=  batch/batch/batch a3/ChatGPT Image 28 giu 2026, 01_17_54.png
+- wide-grip-pull-up.webp  <=  base/immagini esercizi base/ChatGPT Image 28 giu 2026, 01_07_15 (2).png
+
+Duplicati / file non usati direttamente:
+- batch a1 contiene un duplicato identico della scheda Partial Wide Grip Pull Up — Top Half; ne è stata integrata una sola copia.
+- immagini esercizi base.zip contiene 9 copie identiche della scheda Pull-up, 10 copie identiche della scheda Hanging Leg Raise e 1 scheda Wide Grip Pull-up; sono state integrate una sola copia per esercizio.
+- Le immagini overview dei batch sono state conservate in assets/images/overviews/ ma non collegate alla libreria esercizi.
+
+Note tecniche:
+- Le immagini SVG placeholder sono state rimosse solo per gli esercizi sostituiti.
+- Gli altri esercizi continuano a usare SVG locali originali/generati già presenti in v1.6.
+- app.js usa ora IMAGE_OVERRIDES per puntare alle immagini WebP caricate.
+- service-worker.js è stato aggiornato con cache ct-calisthenics-v1.6-replaced-images e lista asset completa.

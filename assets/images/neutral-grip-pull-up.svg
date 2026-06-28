@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Neutral Grip Pull Up">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7fff9"/><stop offset="1" stop-color="#e8f7ee"/></linearGradient>
+    <style>
+      .t{font:700 34px -apple-system,BlinkMacSystemFont,Segoe UI,Arial;fill:#142018}
+      .s{font:600 18px -apple-system,BlinkMacSystemFont,Segoe UI,Arial;fill:#587263}
+      .l{stroke:#17231b;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;fill:none}
+      .m{fill:#18a058;opacity:.72} .a{stroke:#18a058;stroke-width:12;stroke-linecap:round;fill:none;marker-end:url(#arr)}
+      .thin{stroke:#17231b;stroke-width:9;stroke-linecap:round;fill:none}
+    </style>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L7,3 z" fill="#18a058"/></marker>
+  </defs>
+  <rect width="900" height="620" rx="40" fill="url(#bg)"/>
+  <text x="44" y="62" class="t">Neutral Grip Pull Up</text>
+  <text x="44" y="94" class="s">Tutorial originale · start → end · Back · Biceps</text>
+  <rect x="44" y="118" width="812" height="340" rx="28" fill="#fff" stroke="#dfe9e2"/>
+  <path class="thin" d="M190 160 H710 M215 160 V390 M685 160 V390"/><circle cx="315" cy="220" r="17.099999999999998" fill="#f3c6a4" stroke="#17231b" stroke-width="5"/>
+        <path class="l" d="M280.8 168.7 L305.5 201.0 M349.2 168.7 L324.5 201.0 M315 237.1 L315 310.25 M315 262.75 L278.9 324.5 M315 262.75 L351.1 324.5"/>
+        <ellipse class="m" cx="315" cy="258.0" rx="34" ry="50"/><circle cx="590" cy="195" r="17.099999999999998" fill="#f3c6a4" stroke="#17231b" stroke-width="5"/>
+        <path class="l" d="M555.8 143.7 L580.5 176.0 M624.2 143.7 L599.5 176.0 M590 212.1 L590 285.25 M590 237.75 L553.9 299.5 M590 237.75 L626.1 299.5"/>
+        <ellipse class="m" cx="590" cy="233.0" rx="34" ry="50"/><path class="thin" d="M120 398 H780" stroke="#7e9184"/>
+  <path class="a" d="M394 286 C454 226 518 226 582 286"/>
+  <g transform="translate(52 485)">
+    <circle cx="18" cy="18" r="18" fill="#18a058"/><text x="13" y="25" font-size="20" font-weight="800" fill="#fff">1</text><text x="48" y="24" class="s">Imposta posizione stabile</text>
+    <circle cx="318" cy="18" r="18" fill="#18a058"/><text x="313" y="25" font-size="20" font-weight="800" fill="#fff">2</text><text x="348" y="24" class="s">Muovi con controllo</text>
+    <circle cx="610" cy="18" r="18" fill="#18a058"/><text x="605" y="25" font-size="20" font-weight="800" fill="#fff">3</text><text x="640" y="24" class="s">Evita slanci</text>
+  </g>
+  <rect x="52" y="540" width="796" height="42" rx="21" fill="#ffffff" stroke="#dfe9e2"/>
+  <text x="76" y="567" class="s">Consiglio: mantieni core attivo e respira durante il movimento.</text>
+</svg>
