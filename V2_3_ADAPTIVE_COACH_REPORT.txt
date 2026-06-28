@@ -1,0 +1,26 @@
+Coach Tascabile Calisthenics v2.3 Adaptive Update
+
+Base package: v2.2.
+Preserved:
+- PWA installable structure: index.html, manifest.json, service-worker.js, style.css, app.js.
+- Existing workouts, data, images and v2.1/v2.2 generated WebP cards.
+- Italian UI and English exercise names.
+
+Added adaptive features:
+1. Check-in settimanale with main workout completion, core/cardio completion, reps ratio, technique, fatigue, recovery, sleep, pain areas and notes.
+2. Automatic green/yellow/red recommendation logic.
+3. Foundation extension: +1, +2, +4 weeks and repeat Foundation logic by extending Foundation 4 weeks.
+4. Program duration now adapts beyond 12 weeks; Progression and Ultimate shift forward after Foundation extension.
+5. Exercise scaling button: “Non riesco a completare le reps” in Guided and Library.
+6. Adaptive exercise tracker: real reps per set, technique score, fatigue, pain, rest used, personal notes and automatic suggestion.
+7. Adaptive recovery rules for strength/skill, hypertrophy, conditioning and core.
+8. Superserie/tri-set/circuit explanation and simplified mode.
+9. Cardio adaptive section with steady state, HIIT caution and NEAT daily activity tracker.
+10. Phase checkpoints at week 4, week 8, week 12 and after Foundation extension.
+11. Fitness test tracker expanded with strength, cardio, bodyweight, waist, photo reference and notes.
+12. Internal guide: “Come usare il programma senza esagerare”.
+13. New data files in /data: program-rules.json, weekly-checkins.json, exercise-progress.json.
+
+Version:
+- manifest.json version: 2.3
+- service-worker cache: ct-calisthenics-v2.3-adaptive

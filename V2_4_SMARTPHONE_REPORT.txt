@@ -1,0 +1,26 @@
+Coach Tascabile Calisthenics – v2.4 Smartphone/iPhone
+
+Base: v2.3 adaptive.
+Obiettivo: rendere la PWA più comoda su iPhone e smartphone mantenendo dati, immagini e logica adattiva esistenti.
+
+Modifiche principali:
+- Meta tag iOS: apple-mobile-web-app-capable, apple-mobile-web-app-title, status bar, format-detection.
+- Viewport aggiornato con viewport-fit=cover e user-scalable=no per comportamento più app-like.
+- Manifest aggiornato a versione 2.4-smartphone con orientamento portrait.
+- Service worker aggiornato con cache ct-calisthenics-v2.4-smartphone.
+- Barra di navigazione inferiore ottimizzata per smartphone: scroll orizzontale, safe-area iPhone, touch target più grandi.
+- Layout mobile più compatto: card, griglie, testi, form e timer adattati a schermi piccoli.
+- Campi input a 16px per evitare lo zoom automatico di iOS.
+- Immagini esercizi ottimizzate con object-fit contain e altezza massima in viewport.
+- Supporto safe area per notch e barra home indicator.
+- Etichetta programma aggiornata da “12 sett.” a “Piano”, coerente con programma adattivo/estendibile.
+
+File principali modificati:
+- index.html
+- style.css
+- manifest.json
+- service-worker.js
+
+Test:
+- app.js: sintassi verificata con node --check.
+- service-worker.js: sintassi verificata con node --check.

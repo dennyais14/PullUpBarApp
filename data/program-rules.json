@@ -1,0 +1,127 @@
+{
+  "version": "2.3",
+  "phaseRules": {
+    "foundationWeeks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "progressionWeeks": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "ultimateWeeks": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "foundationExtensionOptions": [
+      1,
+      2,
+      4,
+      "repeat_foundation"
+    ]
+  },
+  "advanceCriteria": {
+    "green": {
+      "mainWorkoutsMin": 2,
+      "repsRatioMin": 0.7,
+      "techniqueMin": 7,
+      "fatigueMax": 7,
+      "recoveryMin": 5,
+      "pain": false
+    },
+    "yellow": {
+      "repsRatioMin": 0.4,
+      "repsRatioMax": 0.7,
+      "techniqueMin": 5,
+      "fatigueMax": 8
+    },
+    "red": {
+      "mainWorkoutsMax": 1,
+      "repsRatioMax": 0.4,
+      "techniqueMax": 4,
+      "fatigueMin": 9,
+      "pain": true
+    }
+  },
+  "scalingRules": {
+    "Pull Up": [
+      "band-assisted pull-up",
+      "partial pull-up",
+      "inverted row"
+    ],
+    "Wide Grip Pull Up": [
+      "partial wide grip pull-up bottom half",
+      "band-assisted pull-up",
+      "inverted row"
+    ],
+    "Chin Up": [
+      "band-assisted chin-up",
+      "jumping chin-up with slow negative"
+    ],
+    "Dips": [
+      "partial dips top half",
+      "partial dips bottom half",
+      "feet-assisted dips"
+    ],
+    "Inverted Row": [
+      "bent-hips inverted row",
+      "higher bar inverted row"
+    ],
+    "Press Up": [
+      "straight-bar press up con sbarra più alta",
+      "knees press-up"
+    ],
+    "Hanging Leg Raise": [
+      "Hanging Knee Raise"
+    ],
+    "Hanging Straight Leg Toes to Bar": [
+      "Hanging Bent Knee Toes to Bar"
+    ],
+    "L-Sit Hold": [
+      "knees-tucked hold",
+      "tenuta più breve"
+    ],
+    "Plank": [
+      "plank più breve",
+      "ginocchia a terra"
+    ],
+    "Bulgarian Split Squat": [
+      "split squat normale",
+      "affondo assistito"
+    ]
+  },
+  "cardioRules": {
+    "steadyState": {
+      "duration": "20-60 min",
+      "alternatives": [
+        "camminata veloce",
+        "jogging leggero",
+        "cyclette",
+        "vogatore",
+        "scale",
+        "nuoto"
+      ]
+    },
+    "hiit": {
+      "duration": "10-30 min",
+      "example": "30 sec intenso + 90 sec recupero",
+      "caution": "riduci se main workout, recupero o articolazioni sono sotto stress"
+    },
+    "neat": {
+      "targetSteps": "7000-10000 passi/giorno"
+    }
+  },
+  "recoveryRules": {
+    "strengthSkill": "120-180 sec",
+    "hypertrophy": "60-90 sec",
+    "conditioning": "15-45 sec",
+    "core": "30-60 sec",
+    "highDropAdvice": "Aumenta il recupero o usa una regressione se le reps calano molto tra le serie."
+  }
+}
