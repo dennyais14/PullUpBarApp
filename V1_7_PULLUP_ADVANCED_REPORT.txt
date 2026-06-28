@@ -1,0 +1,28 @@
+Coach Tascabile Calisthenics - v1.7 Pull-up avanzati
+
+Built from:
+- coach_tascabile_calisthenics_pwa_v1_6_updated.zip
+
+New v1.7 exercise cards integrated:
+- Close Grip Chin up -> assets/images/close-grip-chin-up.webp
+- L-Sit Chin up -> assets/images/l-sit-chin-up.webp
+- L-Sit Wide-Grip Pull-Up -> assets/images/l-sit-wide-grip-pull-up.webp
+- Wide Grip Pull Up Behind the Neck -> assets/images/wide-grip-pull-up-behind-the-neck.webp
+- Partial Wide Grip Pull Up (bottom half) -> assets/images/partial-wide-grip-pull-up-bottom-half.webp
+- Partial Wide Grip Pull Up (top half) -> assets/images/partial-wide-grip-pull-up-top-half.webp
+- Neutral Grip Scapula Retraction -> assets/images/neutral-grip-scapula-retraction.webp
+- Jumping Chin up w/ Slow Negative -> assets/images/jumping-chin-up-w-slow-negative.webp
+- Jumping Neutral Grip Pull Up w/ Slow Negative -> assets/images/jumping-neutral-grip-pull-up-w-slow-negative.webp
+- Jumping Wide Grip Pull Up w/ Slow Negative -> assets/images/jumping-wide-grip-pull-up-w-slow-negative.webp
+
+Code updates:
+- app.js updated to point to v1.7 WebP exercise assets
+- manifest.json version set to 1.7
+- service-worker.js cache bumped to ct-calisthenics-v1.7-pullup-advanced
+- PWA installable structure preserved
+
+Previous batches preserved:
+- A1 Pull / Row
+- A2 Dip / Straight Bar
+- A3 Hanging Core
+- A4 Upgrade esercizi base
