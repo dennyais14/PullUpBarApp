@@ -1,0 +1,18 @@
+Coach Tascabile Calisthenics — v2.4.2 Smartphone Adaptive Menu
+
+Aggiornamenti principali:
+- Menu inferiore adattivo in base alla larghezza dello schermo:
+  * desktop/tablet: una riga più ampia;
+  * smartphone medio: griglia compatta;
+  * iPhone piccoli: menu a più righe senza scorrimento laterale obbligatorio.
+- Aggiunto pulsante rapido in alto per cambiare percorso:
+  * Fit & Lean
+  * Strong & Built
+- Aggiunto selettore percorso anche nella Home con due pulsanti chiari.
+- Il percorso selezionato viene salvato in localStorage.
+- Aggiornati manifest.json e service-worker.js alla versione 2.4.2.
+- Mantenute immagini WebP, dati adattivi e struttura PWA installabile.
+- Corretti riferimenti residui generici a WebP.
+
+Nota GitHub Pages:
+Dopo l’upload cancella cache / service worker o reinstalla la PWA, perché iOS/Safari può servire la versione precedente.
